@@ -1,0 +1,9 @@
+.idea/
+*.php~
+node_modules
+assets/bower
+assets/css/*
+!assets/css/main.css
+assets/js/*
+!assets/js/main.js
+assets/fonts/*

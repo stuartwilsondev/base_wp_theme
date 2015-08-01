@@ -1,0 +1,26 @@
+{
+  "name": "base_wp_theme",
+  "version": "1.0.0",
+  "authors": [
+    "Stuart Wilson <stuart.wilson@editoreye.com>"
+  ],
+  "description": "Base Wordpress theme",
+  "keywords": [
+    "CMS"
+  ],
+  "license": "None",
+  "homepage": "www.editoreye.com/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "fontawesome": "~4.4.0"
+  }
+}
