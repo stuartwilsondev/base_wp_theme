@@ -1,5 +1,6 @@
 Wordpress base theme utilising Gulp
 
+add favicon.ico and screenshot.png (960 x 660) in project root
 
 Requirements
 
