@@ -65,7 +65,7 @@ gulp.task('publish-bower-assets', function(){
 
     //js files
     for (jsFile in config.bowerFiles.js) {
-        console.log('Copying JS file:' + config.bowerFiles.js[jsFile]);
+        console.log('Copying JS file: ' + config.bowerFiles.js[jsFile]);
         gulp.src(config.bowerFiles.js[jsFile])
             .pipe(uglify())
             .pipe(rename({
@@ -76,7 +76,7 @@ gulp.task('publish-bower-assets', function(){
 
     //css files
     for (cssFile in config.bowerFiles.css) {
-        console.log('Copying CSS file:' + config.bowerFiles.css[cssFile]);
+        console.log('Copying CSS file: ' + config.bowerFiles.css[cssFile]);
         gulp.src(config.bowerFiles.css[cssFile])
             .pipe(minifycss())
             .pipe(rename({
@@ -87,7 +87,7 @@ gulp.task('publish-bower-assets', function(){
 
     //Fonts
     for (fontFile in config.bowerFiles.fonts) {
-        console.log('Copying Font file:' + config.bowerFiles.fonts[fontFile]);
+        console.log('Copying Font file: ' + config.bowerFiles.fonts[fontFile]);
         gulp.src(config.bowerFiles.fonts[fontFile])
             .pipe(flatten())
             .pipe(gulp.dest(config.fontDir));
